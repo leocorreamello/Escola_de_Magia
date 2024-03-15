@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Old";
+    src: url('/fonts/Olondon_.otf') format('opentype'), url(OldLondon.ttf) format(truetype);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 0 auto; /*Responsavel por colocar no meio*/
+    padding: 20px;
+    background-image: url(img/nav-back.PNG);
+}
+nav{
+    padding: 0 0 10px 400px; /*Ordem = Top, Right, Bottom, Left*/
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 29px;
+    font-family: 'Old', 'Times', 'serif';
+    margin-left: 58px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #bdbdbd;
+}
